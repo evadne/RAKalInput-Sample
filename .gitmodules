@@ -1,0 +1,6 @@
+[submodule "RAKalInput"]
+	path = RAKalInput
+	url = git@github.com:evadne/RAKalInput.git
+[submodule "Kal"]
+	path = Kal
+	url = git://github.com/evadne/Kal.git

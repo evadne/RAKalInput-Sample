@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF6AF09C161FE78000DF3BD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6AF09B161FE78000DF3BD3 /* UIKit.framework */; };
+		FF6AF09E161FE78000DF3BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6AF09D161FE78000DF3BD3 /* Foundation.framework */; };
+		FF6AF0A0161FE78000DF3BD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6AF09F161FE78000DF3BD3 /* CoreGraphics.framework */; };
+		FF6AF0A6161FE78000DF3BD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF6AF0A4161FE78000DF3BD3 /* InfoPlist.strings */; };
+		FF6AF0A8161FE78000DF3BD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6AF0A7161FE78000DF3BD3 /* main.m */; };
+		FF6AF0AC161FE78000DF3BD3 /* RAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6AF0AB161FE78000DF3BD3 /* RAAppDelegate.m */; };
+		FF6AF0AE161FE78000DF3BD3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6AF0AD161FE78000DF3BD3 /* Default.png */; };
+		FF6AF0B0161FE78000DF3BD3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6AF0AF161FE78000DF3BD3 /* Default@2x.png */; };
+		FF6AF0B2161FE78000DF3BD3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6AF0B1161FE78000DF3BD3 /* Default-568h@2x.png */; };
+		FF6AF0CA161FE90300DF3BD3 /* Kal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF6AF0C9161FE90300DF3BD3 /* Kal.bundle */; };
+		FF6AF0CD161FE98000DF3BD3 /* RAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6AF0CC161FE98000DF3BD3 /* RAViewController.m */; };
+		FF6AF0D6161FE98700DF3BD3 /* RAKalView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6AF0D0161FE98700DF3BD3 /* RAKalView.m */; };
+		FF6AF0D7161FE98700DF3BD3 /* RAKalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6AF0D2161FE98700DF3BD3 /* RAKalViewController.m */; };
+		FF6AF0D8161FE98700DF3BD3 /* RAKalInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6AF0D4161FE98700DF3BD3 /* RAKalInputViewController.m */; };
+		FF6AF0DB161FE9B400DF3BD3 /* RAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6AF0D9161FE9B400DF3BD3 /* RAViewController.xib */; };
+		FF6AF0DE161FE9EB00DF3BD3 /* libKal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6AF0C5161FE8FA00DF3BD3 /* libKal.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF6AF0C4161FE8FA00DF3BD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6AF0BD161FE8FA00DF3BD3 /* Kal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = Kal;
+		};
+		FF6AF0DC161FE9E800DF3BD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6AF0BD161FE8FA00DF3BD3 /* Kal.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = Kal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF6AF097161FE78000DF3BD3 /* RAKalInput-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAKalInput-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6AF09B161FE78000DF3BD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF6AF09D161FE78000DF3BD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF6AF09F161FE78000DF3BD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF6AF0A3161FE78000DF3BD3 /* RAKalInput-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RAKalInput-Sample-Info.plist"; sourceTree = "<group>"; };
+		FF6AF0A5161FE78000DF3BD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF6AF0A7161FE78000DF3BD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF6AF0A9161FE78000DF3BD3 /* RAKalInput-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAKalInput-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		FF6AF0AA161FE78000DF3BD3 /* RAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RAAppDelegate.h; path = "RAKalInput-Sample/RAAppDelegate.h"; sourceTree = "<group>"; };
+		FF6AF0AB161FE78000DF3BD3 /* RAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RAAppDelegate.m; path = "RAKalInput-Sample/RAAppDelegate.m"; sourceTree = "<group>"; };
+		FF6AF0AD161FE78000DF3BD3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FF6AF0AF161FE78000DF3BD3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FF6AF0B1161FE78000DF3BD3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF6AF0BD161FE8FA00DF3BD3 /* Kal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kal.xcodeproj; path = Kal/src/Kal.xcodeproj; sourceTree = "<group>"; };
+		FF6AF0C9161FE90300DF3BD3 /* Kal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Kal.bundle; path = Kal/src/Kal.bundle; sourceTree = "<group>"; };
+		FF6AF0CB161FE98000DF3BD3 /* RAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAViewController.h; path = "RAKalInput-Sample/RAViewController.h"; sourceTree = "<group>"; };
+		FF6AF0CC161FE98000DF3BD3 /* RAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAViewController.m; path = "RAKalInput-Sample/RAViewController.m"; sourceTree = "<group>"; };
+		FF6AF0CF161FE98700DF3BD3 /* RAKalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAKalView.h; sourceTree = "<group>"; };
+		FF6AF0D0161FE98700DF3BD3 /* RAKalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAKalView.m; sourceTree = "<group>"; };
+		FF6AF0D1161FE98700DF3BD3 /* RAKalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAKalViewController.h; sourceTree = "<group>"; };
+		FF6AF0D2161FE98700DF3BD3 /* RAKalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAKalViewController.m; sourceTree = "<group>"; };
+		FF6AF0D3161FE98700DF3BD3 /* RAKalInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAKalInputViewController.h; sourceTree = "<group>"; };
+		FF6AF0D4161FE98700DF3BD3 /* RAKalInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAKalInputViewController.m; sourceTree = "<group>"; };
+		FF6AF0D5161FE98700DF3BD3 /* RAKalInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAKalInput.h; sourceTree = "<group>"; };
+		FF6AF0DA161FE9B400DF3BD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "RAKalInput-Sample/en.lproj/RAViewController.xib"; sourceTree = "<group>"; };
+		FF6AF0E0161FEC8700DF3BD3 /* RAKalInputViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAKalInputViewControllerDelegate.h; sourceTree = "<group>"; };
+		FF6AF0E1161FED1500DF3BD3 /* RAKalViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAKalViewControllerDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF6AF094161FE78000DF3BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6AF0DE161FE9EB00DF3BD3 /* libKal.a in Frameworks */,
+				FF6AF09C161FE78000DF3BD3 /* UIKit.framework in Frameworks */,
+				FF6AF09E161FE78000DF3BD3 /* Foundation.framework in Frameworks */,
+				FF6AF0A0161FE78000DF3BD3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF6AF08C161FE78000DF3BD3 = {
+			isa = PBXGroup;
+			children = (
+				FF6AF0AA161FE78000DF3BD3 /* RAAppDelegate.h */,
+				FF6AF0AB161FE78000DF3BD3 /* RAAppDelegate.m */,
+				FF6AF0CB161FE98000DF3BD3 /* RAViewController.h */,
+				FF6AF0CC161FE98000DF3BD3 /* RAViewController.m */,
+				FF6AF0D9161FE9B400DF3BD3 /* RAViewController.xib */,
+				FF6AF0A2161FE78000DF3BD3 /* Supporting Files */,
+				FF6AF09A161FE78000DF3BD3 /* Frameworks */,
+				FF6AF098161FE78000DF3BD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF6AF098161FE78000DF3BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6AF097161FE78000DF3BD3 /* RAKalInput-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF6AF09A161FE78000DF3BD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF6AF09F161FE78000DF3BD3 /* CoreGraphics.framework */,
+				FF6AF09D161FE78000DF3BD3 /* Foundation.framework */,
+				FF6AF0C9161FE90300DF3BD3 /* Kal.bundle */,
+				FF6AF0BD161FE8FA00DF3BD3 /* Kal.xcodeproj */,
+				FF6AF0CE161FE98700DF3BD3 /* RAKalInput */,
+				FF6AF09B161FE78000DF3BD3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF6AF0A2161FE78000DF3BD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF6AF0A3161FE78000DF3BD3 /* RAKalInput-Sample-Info.plist */,
+				FF6AF0A4161FE78000DF3BD3 /* InfoPlist.strings */,
+				FF6AF0A7161FE78000DF3BD3 /* main.m */,
+				FF6AF0A9161FE78000DF3BD3 /* RAKalInput-Sample-Prefix.pch */,
+				FF6AF0AD161FE78000DF3BD3 /* Default.png */,
+				FF6AF0AF161FE78000DF3BD3 /* Default@2x.png */,
+				FF6AF0B1161FE78000DF3BD3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = "RAKalInput-Sample";
+			sourceTree = "<group>";
+		};
+		FF6AF0BE161FE8FA00DF3BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6AF0C5161FE8FA00DF3BD3 /* libKal.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF6AF0CE161FE98700DF3BD3 /* RAKalInput */ = {
+			isa = PBXGroup;
+			children = (
+				FF6AF0D5161FE98700DF3BD3 /* RAKalInput.h */,
+				FF6AF0CF161FE98700DF3BD3 /* RAKalView.h */,
+				FF6AF0D0161FE98700DF3BD3 /* RAKalView.m */,
+				FF6AF0D3161FE98700DF3BD3 /* RAKalInputViewController.h */,
+				FF6AF0E0161FEC8700DF3BD3 /* RAKalInputViewControllerDelegate.h */,
+				FF6AF0D4161FE98700DF3BD3 /* RAKalInputViewController.m */,
+				FF6AF0D1161FE98700DF3BD3 /* RAKalViewController.h */,
+				FF6AF0E1161FED1500DF3BD3 /* RAKalViewControllerDelegate.h */,
+				FF6AF0D2161FE98700DF3BD3 /* RAKalViewController.m */,
+			);
+			name = RAKalInput;
+			path = RAKalInput/RAKalInput;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF6AF096161FE78000DF3BD3 /* RAKalInput-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6AF0B5161FE78000DF3BD3 /* Build configuration list for PBXNativeTarget "RAKalInput-Sample" */;
+			buildPhases = (
+				FF6AF093161FE78000DF3BD3 /* Sources */,
+				FF6AF094161FE78000DF3BD3 /* Frameworks */,
+				FF6AF095161FE78000DF3BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6AF0DD161FE9E800DF3BD3 /* PBXTargetDependency */,
+			);
+			name = "RAKalInput-Sample";
+			productName = "RAKalInput-Sample";
+			productReference = FF6AF097161FE78000DF3BD3 /* RAKalInput-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF6AF08E161FE78000DF3BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Radius;
+			};
+			buildConfigurationList = FF6AF091161FE78000DF3BD3 /* Build configuration list for PBXProject "RAKalInput-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF6AF08C161FE78000DF3BD3;
+			productRefGroup = FF6AF098161FE78000DF3BD3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF6AF0BE161FE8FA00DF3BD3 /* Products */;
+					ProjectRef = FF6AF0BD161FE8FA00DF3BD3 /* Kal.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FF6AF096161FE78000DF3BD3 /* RAKalInput-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF6AF0C5161FE8FA00DF3BD3 /* libKal.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKal.a;
+			remoteRef = FF6AF0C4161FE8FA00DF3BD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF6AF095161FE78000DF3BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6AF0A6161FE78000DF3BD3 /* InfoPlist.strings in Resources */,
+				FF6AF0AE161FE78000DF3BD3 /* Default.png in Resources */,
+				FF6AF0B0161FE78000DF3BD3 /* Default@2x.png in Resources */,
+				FF6AF0B2161FE78000DF3BD3 /* Default-568h@2x.png in Resources */,
+				FF6AF0CA161FE90300DF3BD3 /* Kal.bundle in Resources */,
+				FF6AF0DB161FE9B400DF3BD3 /* RAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF6AF093161FE78000DF3BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6AF0A8161FE78000DF3BD3 /* main.m in Sources */,
+				FF6AF0AC161FE78000DF3BD3 /* RAAppDelegate.m in Sources */,
+				FF6AF0CD161FE98000DF3BD3 /* RAViewController.m in Sources */,
+				FF6AF0D6161FE98700DF3BD3 /* RAKalView.m in Sources */,
+				FF6AF0D7161FE98700DF3BD3 /* RAKalViewController.m in Sources */,
+				FF6AF0D8161FE98700DF3BD3 /* RAKalInputViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF6AF0DD161FE9E800DF3BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kal;
+			targetProxy = FF6AF0DC161FE9E800DF3BD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF6AF0A4161FE78000DF3BD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6AF0A5161FE78000DF3BD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF6AF0D9161FE9B400DF3BD3 /* RAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6AF0DA161FE9B400DF3BD3 /* en */,
+			);
+			name = RAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF6AF0B3161FE78000DF3BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Kal/src";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-objC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF6AF0B4161FE78000DF3BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Kal/src";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-objC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF6AF0B6161FE78000DF3BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAKalInput-Sample/RAKalInput-Sample-Prefix.pch";
+				INFOPLIST_FILE = "RAKalInput-Sample/RAKalInput-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF6AF0B7161FE78000DF3BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAKalInput-Sample/RAKalInput-Sample-Prefix.pch";
+				INFOPLIST_FILE = "RAKalInput-Sample/RAKalInput-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF6AF091161FE78000DF3BD3 /* Build configuration list for PBXProject "RAKalInput-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6AF0B3161FE78000DF3BD3 /* Debug */,
+				FF6AF0B4161FE78000DF3BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6AF0B5161FE78000DF3BD3 /* Build configuration list for PBXNativeTarget "RAKalInput-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6AF0B6161FE78000DF3BD3 /* Debug */,
+				FF6AF0B7161FE78000DF3BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF6AF08E161FE78000DF3BD3 /* Project object */;
+}
